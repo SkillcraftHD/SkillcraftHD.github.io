@@ -24,6 +24,10 @@
     font-size: 20px;
 
     grid-column: 1/4;
+
+    background-image: url("../Files/Gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .left
 {
