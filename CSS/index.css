@@ -19,11 +19,11 @@
     background-color: lightcoral;
     text-align: center;
 
-    grid-column: 1/4;
-
     color: lightgreen;
     font-weight: bold;
     font-size: 20px;
+
+    grid-column: 1/4;
 }
 .left
 {
