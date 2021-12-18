@@ -8,10 +8,10 @@
     [right] 15%;
     grid-template-rows: 
     [navi] 2%
-    [main] 78%
-    [footer] 20%;
+    [main] 88%
+    [footer] 10%;
 
-    width: 100vw;
+    width: 100vw - 10px;
     height: 250vh;
 }
 .navi
@@ -47,7 +47,7 @@
 }
 .right
 {
-    background-color: green;
+    background-color: rgb(0, 128, 0);
     text-align: center;
 
     background-image: url("../Files/Gradient.jpg");
@@ -65,4 +65,8 @@ body
 {
     padding: 0px;
     margin: 0px;
+}
+text
+{
+    display: none;
 }
