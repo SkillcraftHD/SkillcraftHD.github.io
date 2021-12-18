@@ -8,7 +8,7 @@
     [right] 15%;
     grid-template-rows: 
     [navi] 2%
-    [main] 70%
+    [main] 78%
     [footer] 20%;
 
     width: 100vw;
@@ -24,15 +24,15 @@
     font-size: 20px;
 
     grid-column: 1/4;
-
-    background-image: url("../Files/Gradient.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .left
 {
     background-color: green;
     text-align: center;
+
+    background-image: url("../Files/Gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main
 {
@@ -43,6 +43,10 @@
 {
     background-color: green;
     text-align: center;
+
+    background-image: url("../Files/Gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .footer
 {
