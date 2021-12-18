@@ -9,7 +9,7 @@
     grid-template-rows: 
     [navi] 2%
     [main] 88%
-    [footer] 10%;
+    [footer] 11%;
 
     width: 100vw - 10px;
     height: 250vh;
