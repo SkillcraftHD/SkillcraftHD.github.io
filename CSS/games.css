@@ -26,11 +26,6 @@
 
     grid-column: 1/4;
 }
-.navi > image
-{
-    max-width: 20px;
-    max-height: 20px;
-}
 .left
 {
     background-color: green;
