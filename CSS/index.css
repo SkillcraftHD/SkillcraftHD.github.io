@@ -25,11 +25,12 @@
     font-size: 20px;
 
     grid-column: 1/4;
+
+    display:inline;
 }
 .navi > image
 {
-    max-width: 20px;
-    max-height: 20px;
+    width: "100%";
 }
 .left
 {
@@ -92,4 +93,8 @@ body
 text
 {
     display: none;
+}
+div
+{
+    display: inline-block;
 }
