@@ -7,13 +7,12 @@
     [middle] 70%
     [right] 15%;
     grid-template-rows: 
-    [navi] 2%
-    [top] 10.25%
-    [main] 77.75%
-    [footer] 11%;
+    [navi] 4%
+    [top] 20%
+    [main] 76%;
 
-    width: 100vw - 10px;
-    height: 250vh;
+    width: 100vw;
+    height: 100vh;
 }
 .navi
 {
@@ -25,13 +24,6 @@
     font-size: 20px;
 
     grid-column: 1/4;
-
-    display:inline;
-}
-.navi > image
-{
-    margin: 10px 10px;
-    padding: -10px 10px;
 }
 .left
 {
@@ -52,6 +44,9 @@
     background-image: url("../Files/Underbattle.png");
     background-repeat: no-repeat;
     background-size: cover;
+
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 .right
 {
@@ -72,19 +67,8 @@
 
     font-size: 20px;
 
-    background-image: url("../Files/Gradient.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
     grid-column: 2/3;
-    grid-row: 3/4;
-}
-.footer
-{
-    background-color: darkslategrey;
-    text-align: center;
-
-    grid-column: 1/4;
+    grid-row: 3/3;
 }
 body
 {
