@@ -16,10 +16,7 @@
 {
     background-color: lightcoral;
     text-align: center;
-
-    color: lightgreen;
     font-weight: bold;
-    font-size: 20px;
 }
 .top
 {
@@ -34,9 +31,9 @@
 .main
 {
     background-color: rgb(17, 17, 17);
-    text-align: center;
 
-    font-size: 20px;
+    color:rgb(155, 155, 155);
+    text-align: left;
     
     grid-row: 3/3;
 }
@@ -44,8 +41,6 @@ body
 {
     padding: 0px;
     margin: 0px;
-
-    color: lightblue;
 }
 text
 {
@@ -54,4 +49,17 @@ text
 div
 {
     display: inline-block;
+}
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+a
+{
+    color:rgb(155, 155, 155);
+}
+a:hover
+{
+    color:aquamarine;
 }
