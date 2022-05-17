@@ -5,7 +5,7 @@
     grid-template-columns: 
     [middle] 100%;
     grid-template-rows: 
-    [navi] 4%
+    [navi] 25px
     [top] 20%
     [main] 125%;
 
@@ -33,9 +33,17 @@
     background-color: rgb(17, 17, 17);
 
     color:rgb(155, 155, 155);
-    text-align: left;
+    text-align: center;
     
     grid-row: 3/3;
+    
+}
+table, th, td
+{
+    text-align: left;
+    padding-left: 40%;
+    padding: 10px;
+    padding-inline: 1%;
 }
 body
 {
@@ -57,7 +65,8 @@ div
 }
 a
 {
-    color:rgb(155, 155, 155);
+    color:aliceblue;
+    text-decoration: none;
 }
 a:hover
 {
