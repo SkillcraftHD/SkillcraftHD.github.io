@@ -20,11 +20,11 @@
 }
 .top
 {
-    background-color: lightblue;
+    background-color: rgb(17, 17, 17);
 
     background-image: url("../Files/UnityBanner.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 50%;
 
     grid-row: 2/3;
 }
@@ -69,4 +69,12 @@ a
 a:hover
 {
     color:aquamarine;
+}
+h1
+{
+    font-size: 50px;
+}
+.selected
+{
+    color: black;
 }

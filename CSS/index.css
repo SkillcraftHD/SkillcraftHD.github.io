@@ -63,3 +63,11 @@ a:hover
 {
     color:aquamarine;
 }
+.selected
+{
+    color: black;
+}
+h3
+{
+    font-size: 25px;
+}
