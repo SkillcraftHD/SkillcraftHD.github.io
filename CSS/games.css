@@ -7,7 +7,7 @@
     grid-template-rows: 
     [navi] 25px
     [top] 200px
-    [main] 706px;
+    [main] 3006px;
 
     width: 100vw - 10px;
     height: 100vh;
@@ -71,4 +71,40 @@ h1
 .selected
 {
     color: black;
+}
+img
+{
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+ul
+{
+    display: inline-block;
+}
+li
+{
+    text-align: left;
+}
+.name
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+.description
+{
+    font-style: italic;
+    color: grey;
+}
+.status
+{
+    color: green;
+}
+.platforms
+{
+    color: lightskyblue;
+}
+.startDate
+{
+    color: yellow;
 }
