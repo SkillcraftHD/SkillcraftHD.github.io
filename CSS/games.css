@@ -7,7 +7,7 @@
     grid-template-rows: 
     [navi] 25px
     [top] 200px
-    [main] 3006px;
+    [main] 2006px;
 
     width: 100vw - 10px;
     height: 100vh;
@@ -74,8 +74,6 @@ h1
 }
 img
 {
-    image-rendering: auto;
-    image-rendering: crisp-edges;
     image-rendering: pixelated;
 }
 ul
