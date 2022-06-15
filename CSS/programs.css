@@ -37,10 +37,14 @@
     
     grid-row: 3/3;
 }
-table, th, td
+table
+{
+    padding-left: 675px;
+    padding-top: 50px;
+}
+th, td
 {
     text-align: left;
-    padding-left: 40%;
     padding: 10px;
 }
 body
