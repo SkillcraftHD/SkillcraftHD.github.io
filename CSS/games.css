@@ -3,7 +3,7 @@
     display: grid;
 
     grid-template-rows: 
-    [navi] 25px
+    [navi] 24px
     [top] 200px
     [main] 1700px;
 
@@ -26,19 +26,11 @@
     display: inline-block;
     margin: 0px;
     padding: 0px;
-
-    height: 25px;
 }
 .navi li
 {
     display: inline;
     padding: 0px 10px 0px 10px;
-
-    height: 25px;
-}
-.navi li a
-{
-    height: 25px;
 }
 .navi a:hover
 {
@@ -70,7 +62,8 @@ body
 }
 *
 {
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
