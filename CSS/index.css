@@ -18,10 +18,23 @@
     color: rgb(155, 155, 155);
     font-weight: bold;
 }
+.navi ul
+{
+    display: inline-block;
+    list-style: none;
+    
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.navi li
+{
+    display: inline;
+    padding: 0px 10px;
+}
 .top
 {
     background-color: rgb(17, 17, 17);
-
     background-image: url("../Files/UnityBanner.jpg");
     background-repeat: no-repeat;
     background-position: 50%;
@@ -31,7 +44,6 @@
 .main
 {
     background-color: rgb(17, 17, 17);
-
     color:rgb(155, 155, 155);
     
     grid-row: 3/3;
@@ -41,17 +53,9 @@ body
     padding: 0px;
     margin: 0px;
 }
-div
-{
-    display: inline-block;
-}
 h3
 {
     font-size: 25px;
-}
-iframe
-{
-    margin-right: 15px;
 }
 *
 {
@@ -64,11 +68,11 @@ a
 {
     color:aliceblue;
 }
-.navi > a:hover
+.navi a:hover
 {
     color:deepskyblue;
 }
-a:hover
+.main a:hover
 {
     color:aquamarine;
 }
