@@ -4,7 +4,7 @@
 
     grid-template-rows: 
     [navi] 45px
-    [top] 200px
+    [top] 150px
     [main] auto
     [footer] 50px;
 
@@ -44,15 +44,9 @@
 }
 .top
 {
-    background-color: #18171C;
+    background-image: url("../Files/Banner.png");
 
-    background-image: url("../Files/UnityBanner.jpg");
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-
-    font-family: Exo_Thin;
-
-    grid-row: 2/4;
+    grid-row: 2/3;
     grid-column: 1;
 }
 .main
