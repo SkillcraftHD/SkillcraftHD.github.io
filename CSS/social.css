@@ -62,6 +62,10 @@
     grid-row: 3/4;
     grid-column: 1;
 }
+.main a:hover
+{
+    color: #94A3E0;
+}
 .footer
 {
     background-color: #24222A;
@@ -107,10 +111,6 @@ body
     padding: 0px;
     margin: 0px;
 }
-.main a:hover
-{
-    color: #94A3E0;
-}
 *
 {
     font-size: 20px;
@@ -127,16 +127,4 @@ h1
 .selected
 {
     text-decoration: underline;
-}
-.main img
-{
-    image-rendering: pixelated;
-}
-.main > ul
-{
-    display: inline-block;
-}
-.main li
-{
-    text-align: left;
 }
