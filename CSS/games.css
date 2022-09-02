@@ -8,9 +8,9 @@
     [main] auto
     [footer] 50px;
     grid-template-columns: 
-    [left] 30%
-    [middle] 40%
-    [right] 30%;
+    [left] 25%
+    [middle] 50%
+    [right] 25%;
 
     height: 100vh;
 }
