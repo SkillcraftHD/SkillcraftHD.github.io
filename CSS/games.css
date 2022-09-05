@@ -77,6 +77,46 @@
     grid-row: 3/4;
     grid-column: 3;
 }
+.footer
+{
+    background-color: #24222A;
+
+    text-align:center;
+    font-weight: bold;
+
+    font-family: Torus_Light;
+
+    grid-row: 4/4;
+    grid-column: 1/4;
+}
+.footer a
+{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+
+    font-size: 10px;
+    font-weight: 100;
+
+    color: white;
+}
+.footer a:hover
+{
+    color: #94A3E0;
+}
+.footer p
+{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+
+    font-size: 10px;
+    font-weight: 100;
+}
+#grey
+{
+    color: #948E9D;
+}
 body
 {
     padding: 0px;
