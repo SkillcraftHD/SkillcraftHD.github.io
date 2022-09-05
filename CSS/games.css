@@ -23,9 +23,7 @@
 }
 .main
 {
-    background-color: #24222A;
-    background-image: url("../Files/Banner.png");
-    background-size: contain;
+    background-color: #221F2E;
 
     color: white;
     text-align: center;
@@ -51,10 +49,20 @@
 .main > ul
 {
     display: inline-block;
+    padding-left: 0px;
+}
+.main ul ul
+{
+    list-style: disc;
+}
+.main > ul
+{
+    list-style: none;
 }
 .main li
 {
     text-align: left;
+    margin-bottom: 15px;
 }
 .main img
 {
@@ -62,6 +70,27 @@
     border-width: 2px;
     border-style: solid;
     border-color: #5639AC;
+}
+.main h1
+{
+    font-family: Torus_Light;
+}
+.contents
+{
+    position: sticky;
+    left: 0px;
+    z-index: 99;
+    width: 100%;
+    height: 30px;
+    top: 45px;
+    background-color: #221F2E;
+}
+.contents a
+{
+    font-family: Torus_Light;
+    color: #5639AC;
+
+    margin: 0px 25px;
 }
 .left
 {
@@ -81,7 +110,7 @@
 {
     background-color: #24222A;
 
-    text-align:center;
+    text-align: center;
     font-weight: bold;
 
     font-family: Torus_Light;
@@ -116,6 +145,40 @@
 #grey
 {
     color: #948E9D;
+}
+.content
+{
+    padding: 20px 20px;
+}
+.content .name
+{
+    margin-top: 0px;
+}
+.content_border
+{
+    background-color: #18171C;
+    border-radius: 10px;
+    display: block;
+}
+#squizzle
+{
+    position: relative;
+    top: -75px;
+}
+#robo_run
+{
+    position: relative;
+    top: -75px;
+}
+#glowy
+{
+    position: relative;
+    top: -75px;
+}
+#underbattle
+{
+    position: relative;
+    top: -75px;
 }
 body
 {
@@ -157,4 +220,8 @@ h1
 .startDate
 {
     color: yellow;
+}
+html 
+{
+	scroll-behavior: smooth;
 }
