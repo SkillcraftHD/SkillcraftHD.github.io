@@ -1,0 +1,40 @@
+.footer
+{
+    background-color: #24222A;
+
+    text-align:center;
+    font-weight: bold;
+
+    font-family: Exo;
+
+    grid-row: 4/4;
+    grid-column: 1;
+}
+.footer a
+{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+
+    font-size: 10px;
+    font-weight: 100;
+
+    color: white;
+}
+.footer a:hover
+{
+    color: #94A3E0;
+}
+.footer p
+{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+
+    font-size: 10px;
+    font-weight: 100;
+}
+#grey
+{
+    color: #948E9D;
+}
