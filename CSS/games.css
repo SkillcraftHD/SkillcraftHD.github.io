@@ -7,9 +7,9 @@
     [top] 150px
     [main] auto
     [footer] 50px;
-    grid-template-columns: 
+    grid-template-columns:
     [left] 25%
-    [middle] 50%
+    [middle] auto
     [right] 25%;
 
     height: 100vh;
@@ -58,6 +58,7 @@
 .main > ul
 {
     list-style: none;
+    margin: 0px;
 }
 .main li
 {
@@ -88,6 +89,7 @@
 .contents a
 {
     font-family: Torus_Light;
+    font-size: 1vw;
     color: #5639AC;
 
     margin: 0px 25px;
@@ -148,7 +150,7 @@
 }
 .content
 {
-    padding: 20px 20px;
+    padding: 20px;
 }
 .content .name
 {
@@ -159,6 +161,7 @@
     background-color: #18171C;
     border-radius: 10px;
     display: block;
+    margin: 0px 10px;
 }
 #squizzle
 {
