@@ -1,3 +1,9 @@
+:root
+{
+    --length: fit-content(calc(10px + 99%));
+}
+
+
 .grid
 {
     display: grid;
@@ -8,9 +14,9 @@
     [main] auto
     [footer] 50px;
     grid-template-columns:
-    [left] 25%
-    [middle] auto
-    [right] 25%;
+    [left] auto
+    [middle] var(--length)
+    [right] auto;
 
     height: 100vh;
 }
@@ -50,6 +56,7 @@
 {
     display: inline-block;
     padding-left: 0px;
+    width: 100%;
 }
 .main ul ul
 {
@@ -68,6 +75,9 @@
 .main img
 {
     image-rendering: pixelated;
+    width: calc(100px + 5vw);
+    height: auto;
+    border-width: 10px;
     border-width: 2px;
     border-style: solid;
     border-color: #5639AC;
@@ -89,10 +99,10 @@
 .contents a
 {
     font-family: Torus_Light;
-    font-size: 1vw;
+    font-size: calc(5px + 0.5vw);
     color: #5639AC;
 
-    margin: 0px 25px;
+    margin: 0px 1vw;
 }
 .left
 {
@@ -123,7 +133,6 @@
 .footer a
 {
     padding: 0px;
-    border: 0px;
     margin: 0px;
 
     font-size: 10px;
@@ -138,7 +147,6 @@
 .footer p
 {
     padding: 0px;
-    border: 0px;
     margin: 0px;
 
     font-size: 10px;
