@@ -22,7 +22,7 @@
     list-style: none;
     display: inline-block;
 
-    margin: 0px 25px;
+    margin: 0px 1vw;
 }
 .navi :not(a:hover)
 {
@@ -40,7 +40,7 @@
 .logo, .logo a
 {
     position: fixed;
-    margin: 0px -50px;
+    margin: 0px -40px;
     padding: 0px;
     width: 39px;
     height: 39px;

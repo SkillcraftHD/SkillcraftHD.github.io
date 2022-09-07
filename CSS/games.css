@@ -3,7 +3,6 @@
     --length: fit-content(calc(10px + 99%));
 }
 
-
 .grid
 {
     display: grid;
@@ -99,7 +98,7 @@
 .contents a
 {
     font-family: Torus_Light;
-    font-size: calc(5px + 0.5vw);
+    font-size: calc(12.5px + 0.5vw);
     color: #5639AC;
 
     margin: 0px 1vw;
