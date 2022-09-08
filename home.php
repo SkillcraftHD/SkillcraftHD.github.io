@@ -5,7 +5,6 @@
         <title>home | skilly</title>
         <link class="icon" rel="icon" href="Files/Icon.jpg">
         <link href="CSS/index.css" type="text/css" rel="stylesheet">
-        <link href="CSS/all.css" type="text/css" rel="stylesheet">
         <link href="CSS/navi.css" type="text/css" rel="stylesheet">
         <link href="CSS/footer.css" type="text/css" rel="stylesheet">
         <style>
@@ -27,12 +26,15 @@
             <div class="top">
             </div>
             <div class="main">
+                <?php
+                    echo date("j-m-y, h:i:s");
+                ?>
                 <h3>Hey there.</h3>
                 <p>Im Skilly, a Programmer and Indie Game Dev.</p>
                 <p>Ive been programming games with <a href="https://unity.com">Unity</a> for over 2 years now and am currently working on this website.</p>
-                <iframe id="noSelect" style="border :3px solid rgb(104, 11, 91); margin :15px" width="480" height="270" margin="15px"
+                <iframe style="border :3px solid rgb(104, 11, 91); margin :15px" width="480" height="270" margin="15px"
                     src="https://www.youtube.com/embed/9oNdP0OVUsI" title="Will You Snail - Speedrun [21:41.52]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe id="noSelect" style="border :3px solid rgb(104, 11, 91); margin :15px" width="480" height="270"
+                <iframe style="border :3px solid rgb(104, 11, 91); margin :15px" width="480" height="270"
                     src="https://www.youtube.com/embed/R1AQiTTSWoU" title="Underbattle Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="footer">
