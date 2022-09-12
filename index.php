@@ -1,4 +1,4 @@
-<!DOCTYPE php>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -34,7 +34,14 @@
                     src="https://www.youtube.com/embed/9oNdP0OVUsI" title="Will You Snail - Speedrun [21:41.52]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe id="noSelect" style="border :3px solid rgb(104, 11, 91); margin :15px" width="480" height="270"
                     src="https://www.youtube.com/embed/R1AQiTTSWoU" title="Underbattle Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+                <?php
+                    $day = date("d");
+                    $month = date("M");
+                    $year = date("Y");
+                    $time = date("h:i A");
+                ?>
+                    <p id="normalFont">Today is the <?=$day?>. <?=$month?> <?=$year?> and it's currently <?=$time?>.</p>
+                </div>
             <div class="footer">
                 <a href="https://github.com/SkillcraftHD/skillcrafthd.github.io">Source Code</a>
                 <p id="grey">Skilly powered 2020-2022</p>
