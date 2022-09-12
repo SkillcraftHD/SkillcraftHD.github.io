@@ -46,6 +46,7 @@
 .main a
 {
     color:aliceblue;
+    font-weight: bold;
 }
 .main a:hover
 {
