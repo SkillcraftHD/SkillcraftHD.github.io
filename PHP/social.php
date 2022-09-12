@@ -18,11 +18,11 @@
     <body>
         <div class = "grid">
             <div class ="navi">
-                <span class="logo"><a href="../index.html"><img src="../Files/Icon.jpg"></a></span>
-                <a href="../index.html">home</a>
-                <a href="games.html">games</a>
-                <a href="programs.html">programs</a>
-                <a class="selected" href="social.html">social</a>
+                <span class="logo"><a href="../index.php"><img src="../Files/Icon.jpg"></a></span>
+                <a href="../index.php">home</a>
+                <a href="games.php">games</a>
+                <a href="programs.php">programs</a>
+                <a class="selected" href="social.php">social</a>
             </div>
             <div class="top">
             </div>

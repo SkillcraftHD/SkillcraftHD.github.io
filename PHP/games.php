@@ -17,11 +17,11 @@
     <body>
         <div class="grid">
             <div class ="navi">
-                <span class="logo"><a href="../index.html"><img src="../Files/Icon.jpg"></a></span>
-                <a href="../index.html">home</a>
-                <a class="selected" href="games.html">games</a>
-                <a href="programs.html">programs</a>
-                <a href="social.html">social</a>
+                <span class="logo"><a href="../index.php"><img src="../Files/Icon.jpg"></a></span>
+                <a href="../index.php">home</a>
+                <a class="selected" href="games.php">games</a>
+                <a href="programs.php">programs</a>
+                <a href="social.php">social</a>
             </div>
             <div class="top">
             </div>
@@ -71,6 +71,11 @@
                                 <p>Status: <text class="status">Finished [Early Access]</text></p>
                                 <p>Platforms: <text class="platforms">Mobile [Android]</text></p>
                                 <p>Start Date: <text class="startDate">March 2022</text></p>
+                                <p>Links: <text class="links"></p>
+                                    <ul>
+                                        <li><a href="https://gamejolt.com/games/roborun/711791">Game Jolt</a></li>
+                                        <li><a href="https://play.google.com/store/apps/details?id=com.KaiFooGames.RoboRun&gl=DE">Play Store</a></li>
+                                    </ul>
                             </div>
                         </div>
                     </li>
