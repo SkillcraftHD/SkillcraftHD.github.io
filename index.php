@@ -40,7 +40,7 @@
                     $year = date("Y");
                     $time = date("h:i A");
                 ?>
-                    <p id="normalFont">Today is the <?=$day?>. <?=$month?> <?=$year?> and it's currently <?=$time?>.</p>
+                    <p id="normalFont">Today is the <?=$day?>. <?=$month?> <?=$year?> and it's currently <?=$time?>.
                 </div>
             <div class="footer">
                 <a href="https://github.com/SkillcraftHD/skillcrafthd.github.io">Source Code</a>
