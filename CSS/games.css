@@ -2,7 +2,6 @@
 {
     --length: fit-content(calc(10px + 99%));
 }
-
 .grid
 {
     display: grid;
