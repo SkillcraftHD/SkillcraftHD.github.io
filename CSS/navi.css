@@ -20,7 +20,6 @@
 .navi ul
 {
     list-style: none;
-    display: inline-block;
 
     margin: 0px;
     padding: 0px;
@@ -38,11 +37,14 @@
 {
     color:white;
 }
+.logo a img
+{
+    margin-top: 2.5px;
+}
 .logo img
 {
     width: 35px;
     height: 35px;
-    top: 2.5px;
 }
 .logo, .logo a
 {
@@ -50,7 +52,6 @@
     padding: 0px;
     width: 39px;
     height: 39px;
-    top: 2.5px;
 }
 .logo a img
 {
@@ -65,11 +66,9 @@
 }
 .logo a:hover img
 {
-    padding-top: 10px;
-    margin: 0px -40.5px;
+    margin: 10px -2vw 0px -2vw;
     border-color: #5639AC;
     border-width: 10px;
-    border-top: 2.5px;
     right: 39px;
     width: 100px;
     height: 100px;
