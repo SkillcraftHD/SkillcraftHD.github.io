@@ -18,3 +18,10 @@
 {
     font-family: Exo;
 }
+:root
+{
+    --scale :var('scale(1)');
+    -webkitTransform: --scale;
+    -msTransform:  --scale;
+    -transform: --scale;
+}
