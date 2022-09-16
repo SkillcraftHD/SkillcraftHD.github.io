@@ -20,8 +20,9 @@
 }
 :root
 {
-    --scale :var('scale(1)');
-    -webkitTransform: --scale;
-    -msTransform:  --scale;
-    -transform: --scale;
+    -webkitTransform: scale(1);
+    -msTransform:  scale(1);
+    -transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
 }
