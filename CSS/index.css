@@ -20,6 +20,7 @@
 .main
 {
     background-color: #18171C;
+    padding: 0px 20px;
 
     color: white;
     text-align: center;
@@ -27,6 +28,13 @@
 
     grid-row: 3/4;
     grid-column: 1;
+}
+.main > iframe
+{
+    border: 3px solid rgb(104, 11, 91); 
+    width: auto;
+    height: 28.725%;
+    margin: 15px;
 }
 .main a
 {
