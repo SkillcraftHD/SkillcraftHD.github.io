@@ -10,6 +10,14 @@
 
     height: 100vh;
 }
+.navi
+{
+    background-color: #5639AC;
+}
+.logo a:hover img
+{
+    border-color: #5639AC;
+}
 .top
 {
     background-image: url("../Files/Banner.png");
@@ -19,15 +27,14 @@
 }
 .main
 {
-    background-color: #18171C;
+    grid-row: 3/4;
+    grid-column: 1;
     padding: 0px 20px;
 
     color: white;
+    background-color: #18171C;
     text-align: center;
     font-weight: bold;
-
-    grid-row: 3/4;
-    grid-column: 1;
 }
 .main > iframe
 {
@@ -44,22 +51,16 @@
 {
     color: #94A3E0;
 }
-body
+.footer a:hover
 {
-    padding: 0px;
-    margin: 0px;
-}
-*
-{
-    font-size: 20px;
-    text-decoration: none;
-    font-family: Torus_Light;
-}
-h1
-{
-    font-size: 50px;
+    color: #94A3E0;
 }
 .selected
 {
     text-decoration: underline;
+    text-decoration-color: #8C66FF;
+}
+*
+{
+    font-family: Torus_Light;
 }

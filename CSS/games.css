@@ -18,6 +18,14 @@
 
     height: 100vh;
 }
+.navi
+{
+    background-color: #5639AC;
+}
+.logo a:hover img
+{
+    border-color: #5639AC;
+}
 .top
 {
     background-image: url("../Files/Banner.png");
@@ -27,27 +35,25 @@
 }
 .main
 {
-    background-color: #221F2E;
+    grid-row: 3/4;
+    grid-column: 2;
 
     color: white;
+    background-color: #221F2E;
     text-align: center;
     font-weight: 100;
-    
     font-family: Exo;
 
     border-style: solid;
     border-color: #18171C;
     border-width: 10px;
-
-    grid-row: 3/4;
-    grid-column: 2;
 }
 .main a
 {
     color:aliceblue;
     font-weight: bold;
 }
-.main a:hover
+.main a:hover, footer a:hover
 {
     color: #94A3E0;
 }
@@ -139,18 +145,6 @@
 
     color: white;
 }
-.footer a:hover
-{
-    color: #94A3E0;
-}
-.footer p
-{
-    padding: 0px;
-    margin: 0px;
-
-    font-size: 10px;
-    font-weight: 100;
-}
 #grey
 {
     color: #948E9D;
@@ -190,25 +184,6 @@
     position: relative;
     top: -75px;
 }
-body
-{
-    padding: 0px;
-    margin: 0px;
-}
-*
-{
-    font-size: 20px;
-    text-decoration: none;
-}
-h1
-{
-    font-size: 50px;
-}
-.selected
-{
-    text-decoration: underline;
-    text-decoration-color: #8C66FF;
-}
 .name
 {
     font-weight: bold;
@@ -231,7 +206,8 @@ h1
 {
     color: yellow;
 }
-html 
+.selected
 {
-	scroll-behavior: smooth;
+    text-decoration: underline;
+    text-decoration-color: #8C66FF;
 }

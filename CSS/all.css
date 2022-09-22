@@ -17,6 +17,33 @@
     user-select: none;
 }
 
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+h1
+{
+    font-size: 50px;
+}
+.footer p
+{
+    padding: 0px;
+    margin: 0px;
+
+    font-size: 10px;
+    font-weight: 100;
+}
+html 
+{
+	scroll-behavior: smooth;
+}
+*
+{
+    font-size: 20px;
+    text-decoration: none;
+}
+
 #normalFont { font-family: Exo; }
 @font-face { font-family: Torus_Light; src: url('../Files/Fonts/Torus_Light.otf'); }
 @font-face { font-family: Exo_Light; src: url('../Files/Fonts/Exo_Light.otf'); }

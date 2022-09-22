@@ -3,7 +3,6 @@
     width: 100%;
     position: fixed;
 
-    background-color: #5639AC;
     text-align: center;
     font-weight: bold;
 
@@ -67,7 +66,6 @@
 .logo a:hover img
 {
     margin: 10px -2vw 0px -2vw;
-    border-color: #5639AC;
     border-width: 10px;
     right: 39px;
     width: 100px;

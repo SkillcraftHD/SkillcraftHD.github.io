@@ -10,6 +10,18 @@
 
     height: 100vh;
 }
+.navi
+{
+    background-color: #3986AC;
+}
+.main a:hover, .footer a:hover
+{
+    color: #73B1D9;
+}
+.logo a:hover img
+{
+    border-color: #3986AC;
+}
 .top
 {
     background-image: url("../Files/Banner.png");
@@ -19,40 +31,21 @@
 }
 .main
 {
-    background-color: #18171C;
-
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    
-    font-family: Torus_Light;
-
     grid-row: 3/4;
     grid-column: 1;
-}
-.main a:hover
-{
-    color: #94A3E0;
-}
-body
-{
-    padding: 0px;
-    margin: 0px;
-}
-*
-{
-    font-size: 20px;
-    text-decoration: none;
+
+    color: white;
+    background-color: #18171C;
+    text-align: center;
+    font-weight: bold;
+    font-family: Torus_Light;
 }
 .main a
 {
     color:aliceblue;
 }
-h1
-{
-    font-size: 50px;
-}
 .selected
 {
     text-decoration: underline;
+    text-decoration-color: #66CCFF;
 }
