@@ -6,8 +6,6 @@
     zoom: 1;
 }
 
-::-moz-selection { background: #5639AC; }
-::selection { background: #5639AC; }
 #noSelect, img, .navi
 {
     -webkit-user-select: none;

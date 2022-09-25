@@ -69,3 +69,5 @@ th, td
 {
     font-family: Torus_Light;
 }
+::-moz-selection { background: #3986AC; }
+::selection { background: #3986AC; }

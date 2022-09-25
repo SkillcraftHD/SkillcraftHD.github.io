@@ -49,3 +49,5 @@
     text-decoration: underline;
     text-decoration-color: #66CCFF;
 }
+::-moz-selection { background: #3986AC; }
+::selection { background: #3986AC; }
