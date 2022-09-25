@@ -145,6 +145,10 @@
 
     color: white;
 }
+.footer a:hover
+{
+    color: #94A3E0;
+}
 #grey
 {
     color: #948E9D;
