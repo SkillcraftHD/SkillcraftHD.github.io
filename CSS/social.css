@@ -24,7 +24,7 @@
 }
 .top
 {
-    background-image: url("../Files/Banner.png");
+    background-image: url("../Images/Banner.png");
 
     grid-row: 2/3;
     grid-column: 1;
