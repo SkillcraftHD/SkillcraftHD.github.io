@@ -60,9 +60,5 @@
     text-decoration: underline;
     text-decoration-color: #8C66FF;
 }
-*
-{
-    font-family: Torus_Light;
-}
 ::-moz-selection { background: #5639AC; }
 ::selection { background: #5639AC; }

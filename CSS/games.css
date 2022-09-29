@@ -42,7 +42,6 @@
     background-color: #221F2E;
     text-align: center;
     font-weight: 100;
-    font-family: Exo;
 
     border-style: solid;
     border-color: #18171C;
@@ -87,10 +86,6 @@
     border-style: solid;
     border-color: #5639AC;
 }
-.main h1
-{
-    font-family: Torus_Light;
-}
 .contents
 {
     position: sticky;
@@ -103,7 +98,6 @@
 }
 .contents a
 {
-    font-family: Torus_Light;
     font-size: calc(12.5px + 0.5vw);
     color: #5639AC;
 
@@ -129,8 +123,6 @@
 
     text-align: center;
     font-weight: bold;
-
-    font-family: Torus_Light;
 
     grid-row: 4/4;
     grid-column: 1/4;

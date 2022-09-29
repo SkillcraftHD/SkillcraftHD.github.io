@@ -65,9 +65,5 @@ th, td
     text-decoration: underline;
     text-decoration-color: #66CCFF;
 }
-*
-{
-    font-family: Torus_Light;
-}
 ::-moz-selection { background: #3986AC; }
 ::selection { background: #3986AC; }

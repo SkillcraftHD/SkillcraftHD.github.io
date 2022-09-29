@@ -5,7 +5,6 @@
     -transform: scale(1);
     zoom: 1;
 }
-
 #noSelect, img, .navi
 {
     -webkit-user-select: none;
@@ -19,6 +18,8 @@ body
 {
     padding: 0px;
     margin: 0px;
+
+    font-family: Varela;
 }
 h1
 {
@@ -42,7 +43,5 @@ html
     text-decoration: none;
 }
 
-#normalFont { font-family: Exo; }
-@font-face { font-family: Torus_Light; src: url('../Files/Fonts/Torus_Light.otf'); }
-@font-face { font-family: Exo_Light; src: url('../Files/Fonts/Exo_Light.otf'); }
-@font-face { font-family: Exo; src: url('../Files/Fonts/Exo.otf'); }
+#normalFont { font-family: Varela; src: url('../Files/Fonts/VarelaRound-Regular.ttf')}
+@font-face { font-family: Varela; src: url('../Files/Fonts/VarelaRound-Regular.ttf'); }
