@@ -4,7 +4,6 @@
     position: fixed;
 
     text-align: center;
-    font-weight: bold;
 
     height: 45px;
     line-height: 45px;
@@ -13,6 +12,14 @@
     grid-column: 2;
 
     z-index: 100;
+}
+.navi :not(a:hover)
+{
+    font-weight: 100;
+}
+.navi a:hover
+{
+    font-weight: bold;
 }
 .navi ul
 {

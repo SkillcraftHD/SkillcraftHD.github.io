@@ -43,5 +43,4 @@ html
     text-decoration: none;
 }
 
-#normalFont { font-family: Varela; src: url('../Fonts/VarelaRound-Regular.ttf')}
 @font-face { font-family: Varela; src: url('../Fonts/VarelaRound-Regular.ttf'); }
