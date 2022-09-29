@@ -1,5 +1,5 @@
-# Just my website
-Nothing more
+# Link
+https://skillcrafthd.github.io
 ## Discord Server
 If want, you can join my [discord server](https://discord.gg/MQgTSM4qtm) to stay up to date and contribute to new ideas and features for the website.
 ## Why Open Source?
