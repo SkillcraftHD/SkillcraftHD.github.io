@@ -22,6 +22,10 @@
 {
     background-color: #5639AC;
 }
+.cell
+{
+    background-color: #8C66FF;
+}
 .logo a:hover img
 {
     border-color: #5639AC;
@@ -203,10 +207,10 @@
 {
     color: yellow;
 }
-.selected
+.cell
 {
-    text-decoration: underline;
-    text-decoration-color: #8C66FF;
+    background-color: #8C66FF;
+    width: 70px;
 }
 ::-moz-selection { background: #5639AC; }
 ::selection { background: #5639AC; }

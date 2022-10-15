@@ -43,10 +43,10 @@
 {
     color:aliceblue;
 }
-.selected
+.cell
 {
-    text-decoration: underline;
-    text-decoration-color: #66CCFF;
+    background-color: #73B1D9;
+    width: 55px;
 }
 ::-moz-selection { background: #3986AC; }
 ::selection { background: #3986AC; }

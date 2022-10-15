@@ -41,6 +41,12 @@
 {
     color:white;
 }
+.cell
+{
+    border-radius: 10px;
+    height: 3.5px;
+    margin-top: -10px;
+}
 .logo img
 {
     width: 35px;

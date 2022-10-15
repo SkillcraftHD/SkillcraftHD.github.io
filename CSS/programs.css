@@ -14,6 +14,10 @@
 {
     background-color: #3986AC;
 }
+.cell
+{
+    background-color: #3986AC;
+}
 .main a:hover, .footer a:hover
 {
     color: #73B1D9;
@@ -60,10 +64,10 @@ th, td
     text-align: left;
     padding: 10px;
 }
-.selected
+.cell
 {
-    text-decoration: underline;
-    text-decoration-color: #66CCFF;
+    background-color: #73B1D9;
+    width: 100px;
 }
 ::-moz-selection { background: #3986AC; }
 ::selection { background: #3986AC; }

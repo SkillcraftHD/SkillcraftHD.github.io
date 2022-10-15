@@ -54,10 +54,10 @@
 {
     color: #94A3E0;
 }
-.selected
+.cell
 {
-    text-decoration: underline;
-    text-decoration-color: #8C66FF;
+    background-color: #8C66FF;
+    width: 55px;
 }
 ::-moz-selection { background: #5639AC; }
 ::selection { background: #5639AC; }
