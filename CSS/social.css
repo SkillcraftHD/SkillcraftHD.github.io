@@ -46,7 +46,7 @@
 .cell
 {
     background-color: #73B1D9;
-    width: 55px;
+    width: 60px;
 }
 ::-moz-selection { background: #3986AC; }
 ::selection { background: #3986AC; }
