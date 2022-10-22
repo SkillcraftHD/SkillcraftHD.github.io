@@ -32,3 +32,22 @@
 {
     color: #948E9D;
 }
+ul
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    list-style: none;
+}
+ul li ul
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    list-style: none;
+}
+ul li ul li
+{
+    display: inline-block;
+    margin: 0px 0.5vw;
+}
