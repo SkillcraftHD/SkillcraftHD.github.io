@@ -212,5 +212,24 @@
     background-color: #8C66FF;
     width: 70px;
 }
+ul
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    list-style: none;
+}
+ul li ul
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    list-style: none;
+}
+ul li ul li
+{
+    display: inline-block;
+    margin: 0px 0.5vw;
+}
 ::-moz-selection { background: #5639AC; }
 ::selection { background: #5639AC; }

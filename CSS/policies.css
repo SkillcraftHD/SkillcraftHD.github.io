@@ -1,0 +1,37 @@
+.main
+{
+    grid-row: 3/4;
+    grid-column: 1;
+    padding: 0px 20px;
+
+    color: white;
+    background-color: #18171C;
+    text-align: center;
+}
+.main a
+{
+    color:aliceblue;
+}
+.main a:hover
+{
+    color: #94A3E0;
+}
+.footer a:hover
+{
+    color: #94A3E0;
+}
+.main ul li
+{
+    margin: 25px 0px;
+}
+.main h2
+{
+    margin-bottom: 35px;
+}
+.cell
+{
+    background-color: #8C66FF;
+    width: 55px;
+}
+::-moz-selection { background: #5639AC; }
+::selection { background: #5639AC; }
