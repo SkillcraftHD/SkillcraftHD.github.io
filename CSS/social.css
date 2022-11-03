@@ -10,30 +10,12 @@
 {
     border-color: #3986AC;
 }
-.top
-{
-    background-image: url("../Images/Banner.png");
-
-    grid-row: 2/3;
-}
 .main
 {
     background-color: #18171C;
-
     grid-row: 3/4;
 }
-.cont
-{
-    color: white;
-    background-color: #18171C;
-    text-align: center;
-    font-weight: bold;
-
-    border-style: solid;
-    border-color: #18171C;
-    border-width: 10px;
-}
-.main a
+.cont a
 {
     color:aliceblue;
 }

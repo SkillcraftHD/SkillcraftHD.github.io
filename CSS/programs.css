@@ -14,16 +14,9 @@
 {
     border-color: #3986AC;
 }
-.top
-{
-    background-image: url("../Images/Banner.png");
-
-    grid-row: 2/3;
-}
 .main
 {
     background-color: #18171C;
-
     grid-row: 3/4;
 }
 .cont
@@ -32,15 +25,15 @@
     background-color: #18171C;
     text-align: center;
 }
-.main h1
+.cont h1
 {
     font-weight: bold;
 }
-.main :not(a, h1)
+.cont :not(a, h1)
 {
     font-weight: 100;
 }
-.main a
+.cont a
 {
     color: white;
     font-weight: bold;

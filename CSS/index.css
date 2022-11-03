@@ -6,16 +6,9 @@
 {
     border-color: #5639AC;
 }
-.top
-{
-    background-image: url("../Images/Banner.png");
-
-    grid-row: 2/3;
-}
 .main
 {
     background-color: #18171C;
-
     grid-row: 3/4;
 }
 .cont
@@ -26,18 +19,14 @@
     background-color: #18171C;
     text-align: center;
 }
-.main > iframe
+.cont > iframe
 {
     border: 3px solid rgb(104, 11, 91); 
     width: auto;
     height: 28.725%;
     margin: 15px;
 }
-.main a
-{
-    color:aliceblue;
-}
-.main a:hover
+.cont a:hover
 {
     color: #94A3E0;
 }

@@ -1,0 +1,20 @@
+.top
+{
+    background-image: url("../Images/Banner.png");
+
+    grid-row: 2/3;
+}
+.cont
+{
+    color: white;
+    background-color: #221F2E;
+    text-align: center;
+    font-weight: 100;
+
+    border-style: solid;
+    border-color: #18171C;
+    border-width: 10px;
+    margin: auto;
+
+    width: 1000px;
+}
