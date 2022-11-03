@@ -1,6 +1,6 @@
 ## [Website](https://skillcrafthd.github.io)
 ## Current Status
-The website is finally closing by to where I want it to be though there are still many improvementd and design changes I have planned for the future.
+The website is finally closing by to where I want it to be though there are still many improvements and design changes I have planned for the future.
 ## Discord Server
 If want, you can join my [discord server](https://discord.gg/MQgTSM4qtm) to stay up to date and contribute to new ideas and features for the website.
 ## Why Open Source?
