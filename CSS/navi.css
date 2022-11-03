@@ -1,3 +1,15 @@
+.grid
+{
+    display: grid;
+
+    grid-template-rows: 
+    [navi] 45px
+    [top] 150px
+    [main] auto
+    [footer] 50px;
+
+    height: 100vh;
+}
 .navi
 {
     width: 100%;
