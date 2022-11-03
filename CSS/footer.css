@@ -2,11 +2,10 @@
 {
     background-color: #24222A;
 
-    text-align:center;
+    text-align: center;
     font-weight: bold;
 
-    grid-row: 4/4;
-    grid-column: 1;
+    grid-row: 4/5;
 }
 .footer a
 {

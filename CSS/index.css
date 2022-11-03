@@ -23,12 +23,15 @@
     background-image: url("../Images/Banner.png");
 
     grid-row: 2/3;
-    grid-column: 1;
 }
 .main
 {
+    background-color: #18171C;
+
     grid-row: 3/4;
-    grid-column: 1;
+}
+.cont
+{
     padding: 0px 20px;
 
     color: white;
