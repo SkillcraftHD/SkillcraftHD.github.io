@@ -1,4 +1,4 @@
-## [Website](https://skillcrafthd.github.io)
+## [Website](https://sukirii.github.io)
 ## Current Status
 The website is finally closing by to where I want it to be though there are still many improvements and design changes I have planned for the future.
 ## Discord Server
