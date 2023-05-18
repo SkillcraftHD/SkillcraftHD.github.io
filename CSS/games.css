@@ -120,15 +120,15 @@
 }
 .status
 {
-    color: green;
+    color: #FFBF53;
 }
 .platforms
 {
-    color: lightskyblue;
+    color: #F74C7C;
 }
 .startDate
 {
-    color: yellow;
+    color: #FF835E;
 }
 ul
 {
