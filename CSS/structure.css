@@ -1,7 +1,6 @@
 .top
 {
     background-image: url("../Images/Banner.png");
-
     grid-row: 2/3;
 }
 .cont

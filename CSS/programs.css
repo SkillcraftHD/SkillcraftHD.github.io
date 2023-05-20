@@ -1,8 +1,4 @@
-.navi
-{
-    background-color: #3986AC;
-}
-.cell
+.navi, .cell
 {
     background-color: #3986AC;
 }
@@ -19,24 +15,22 @@
     background-color: #18171C;
     grid-row: 3/4;
 }
-.cont
+.cont, .cont a
 {
     color: white;
+}
+.cont
+{
     background-color: #18171C;
     text-align: center;
 }
-.cont h1
+.cont h1, .cont a
 {
     font-weight: bold;
 }
 .cont :not(a, h1)
 {
     font-weight: 100;
-}
-.cont a
-{
-    color: white;
-    font-weight: bold;
 }
 table
 {

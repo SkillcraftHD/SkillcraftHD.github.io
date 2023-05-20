@@ -7,7 +7,7 @@
     background-color: #8C66FF;
     width: 70px;
 }
-.logo a:hover img
+.logo a:hover img, .cont img
 {
     border-color: #5639AC;
 }
@@ -50,10 +50,8 @@
     image-rendering: pixelated;
     width: calc(100px + 5vw);
     height: auto;
-    border-width: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: #5639AC;
 }
 .contents
 {
@@ -61,7 +59,7 @@
     left: 0px;
     z-index: 99;
     width: var(--length);
-    height: 30px;
+    height: 35px;
     line-height: 30px;
     top: 45px;
     background-color: #221F2E;
@@ -88,22 +86,7 @@
     display: block;
     margin: 0px 10px;
 }
-#squizzle
-{
-    position: relative;
-    top: -75px;
-}
-#robo_run
-{
-    position: relative;
-    top: -75px;
-}
-#glowy
-{
-    position: relative;
-    top: -75px;
-}
-#underbattle
+#squizzle, #robo_run, #glowy, #underbattle
 {
     position: relative;
     top: -75px;
@@ -118,26 +101,23 @@
     font-style: italic;
     color: grey;
 }
-.status
+.status, .platforms, .startDate
+{
+    color: lightgray;
+}
+.status > text
 {
     color: #FFBF53;
 }
-.platforms
+.platforms > text
 {
     color: #F74C7C;
 }
-.startDate
+.startDate > text
 {
     color: #FF835E;
 }
-ul
-{
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    list-style: none;
-}
-ul li ul
+ul, ul li ul
 {
     padding: 0px;
     margin: 0px;

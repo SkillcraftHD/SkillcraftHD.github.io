@@ -14,7 +14,6 @@
 .cont
 {
     padding: 0px 20px;
-
     color: white;
     background-color: #18171C;
     text-align: center;
@@ -26,11 +25,7 @@
     height: 28.725%;
     margin: 15px;
 }
-.cont a:hover
-{
-    color: #94A3E0;
-}
-.footer a:hover
+.cont a:hover, .footer a:hover
 {
     color: #94A3E0;
 }
@@ -39,5 +34,5 @@
     background-color: #8C66FF;
     width: 55px;
 }
-::-moz-selection { background: #5639AC; }
+::-moz-selection { background-color: #5639AC; }
 ::selection { background: #5639AC; }
