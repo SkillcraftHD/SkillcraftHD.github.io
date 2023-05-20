@@ -25,14 +25,6 @@
 
     z-index: 100;
 }
-.navi :not(a:hover)
-{
-    font-weight: 100;
-}
-.navi a:hover
-{
-    font-weight: bold;
-}
 .navi ul
 {
     list-style: none;
@@ -47,11 +39,17 @@
 }
 .navi :not(a:hover)
 {
-    color:rgb(200, 200, 200);
-}
-.navi a:hover
-{
     color:white;
+    font-weight: 100;
+}
+.navi:hover li a
+{
+    color: rgb(200, 200, 200);
+}
+.navi li a:hover
+{
+    color: white;
+    font-weight: bold;
 }
 .cell
 {
