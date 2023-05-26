@@ -11,6 +11,10 @@
     background-color: #18171C;
     grid-row: 3/4;
 }
+.main i
+{
+    color: #94A3E0;
+}
 .cont
 {
     padding: 0px 20px;
