@@ -1,12 +1,7 @@
-.top
-{
-    background-image: url("../Images/Banner.png");
-    grid-row: 2/3;
-}
 .cont
 {
     color: white;
-    background-color: #221F2E;
+    /*background-color: #221F2E;*/
     text-align: center;
     font-weight: 100;
 

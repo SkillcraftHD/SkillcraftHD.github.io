@@ -15,6 +15,16 @@
     background-color: #18171C;
     grid-row: 3/4;
 }
+.main img
+{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.main #pixel
+{
+    image-rendering: pixelated;
+}
 .cont a
 {
     color:aliceblue;

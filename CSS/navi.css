@@ -89,3 +89,8 @@
     width: 100px;
     height: 100px;
 }
+.top
+{
+    background-image: url("../Images/Banner.png");
+    grid-row: 2/3;
+}
