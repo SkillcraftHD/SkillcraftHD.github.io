@@ -40,7 +40,6 @@
 .navi :not(a:hover)
 {
     color:white;
-    font-weight: 100;
 }
 .navi:hover li a
 {
@@ -49,7 +48,6 @@
 .navi li a:hover
 {
     color: white;
-    font-weight: bold;
 }
 .cell
 {
