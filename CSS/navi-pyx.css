@@ -1,0 +1,88 @@
+.grid
+{
+    display: grid;
+
+    grid-template-rows: 
+    [navi] 45px
+    [main] auto
+    [footer] 50px;
+
+    height: 100vh;
+}
+.navi
+{
+    width: 100%;
+    position: fixed;
+
+    text-align: center;
+
+    height: 45px;
+    line-height: 45px;
+
+    grid-row: 1;
+    grid-column: 2;
+
+    z-index: 100;
+}
+.navi ul
+{
+    list-style: none;
+
+    margin: 0px;
+    padding: 0px;
+}
+.navi ul li
+{
+    display: inline-block;
+    margin: 0px 1vw;
+}
+.navi :not(a:hover)
+{
+    color:white;
+}
+.navi:hover li a
+{
+    color: rgb(200, 200, 200);
+}
+.navi li a:hover
+{
+    color: white;
+}
+.cell
+{
+    border-radius: 10px;
+    height: 3.5px;
+    margin-top: -10px;
+}
+.logo img
+{
+    width: 35px;
+    height: 35px;
+}
+.logo, .logo a
+{
+    margin: 0px calc(1vw - 40px);
+    padding: 0px;
+    width: 39px;
+    height: 39px;
+}
+.logo a img
+{
+    float: left;
+    margin-top: 2.5px;
+    border-radius: 50%;
+    border: solid;
+}
+.logo :not(a:hover) img
+{
+    border-color: white;
+    border-width: 2px;
+}
+.logo a:hover img
+{
+    margin: 10px -2vw 0px -2vw;
+    border-width: 10px;
+    right: 39px;
+    width: 100px;
+    height: 100px;
+}
