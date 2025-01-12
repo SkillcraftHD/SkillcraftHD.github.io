@@ -72,16 +72,3 @@
     border-radius: 50%;
     border: solid;
 }
-.logo :not(a:hover) img
-{
-    border-color: white;
-    border-width: 2px;
-}
-.logo a:hover img
-{
-    margin: 10px -2vw 0px -2vw;
-    border-width: 10px;
-    right: 39px;
-    width: 100px;
-    height: 100px;
-}
